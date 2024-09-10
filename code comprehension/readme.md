@@ -1,6 +1,13 @@
-This directory includes the code for predicting the difficulty of code snippet in our study. There are two directory in this data, first is for model input with 10\%-50\% few-reliance simulation, another is model for 60\%-100\% few-reliance simulation and others. 
+This directory contains the code for predicting the difficulty of code snippets in our study. There are two subdirectories:
 
-Run the model with python stim_evaluation.py --problem-setting=subjective_difficulty --split=code-snippet --mode=bimodal --simulation="simulation type" --seed=41 --output="output.csv"
+- The first directory is for model input with 10%-50% few-reliance simulations.
+- The second directory is for model input with 60%-100% few-reliance simulations and others.
+
+To run the model, use the following command:
+
+```bash
+python stim_evaluation.py --problem-setting=subjective_difficulty --split=code-snippet --mode=bimodal --simulation="simulation type" --seed=41 --output="output.csv"
+
 
 
 The final_result.csv is the four metrics for the model performance with different scanpath input. Because we conduct the 3-fold cross-validation, there are three lines for a each model input which indicate the result after n cross-validation.
