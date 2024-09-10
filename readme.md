@@ -1,7 +1,7 @@
-Here is the artificats for FSE 2025 submission: CodeACT-R: Cognatively simulated human attention pattern in code comprehension
+### Artifacts for FSE 2025 Submission: **CodeACT-R: Cognitively Simulated Human Attention Patterns in Code Comprehension**
 
-Scanpath Collection: The original fixation token from tobii eyetracker, and the code to get the participants' attention in each stimulus.
+- **Scanpath Collection**: Includes the original fixation tokens from the Tobii eyetracker and the code used to extract participants' attention patterns for each stimulus.
 
-CodeACT-R simulation: The code to simulate scanpath with CodeACT-R.
+- **CodeACT-R Simulation**: The code to simulate scanpaths using the CodeACT-R model.
 
-Code comprehension: Use the deep learning model with human scanpath to predict the difficulty of code snippet.
+- **Code Comprehension**: A deep learning model that uses human scanpaths to predict the difficulty of code snippets.
