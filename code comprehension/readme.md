@@ -7,9 +7,10 @@ To run the model, use the following command:
 
 ```bash
 python stim_evaluation.py --problem-setting=subjective_difficulty --split=code-snippet --mode=bimodal --simulation="simulation type" --seed=41 --output="output.csv"
+```
 
 
 
-The final_result.csv is the four metrics for the model performance with different scanpath input. Because we conduct the 3-fold cross-validation, there are three lines for a each model input which indicate the result after n cross-validation.
+The final_result.csv file contains the four metrics for model performance with different scanpath inputs. Since we conducted 3-fold cross-validation, there are three lines for each model input, representing the result after each cross-validation.
 
-Due to space limit of the Github, we put the input embedding in a anonymious dropbox account, the link is https://www.dropbox.com/scl/fo/rpf389602ek8ugaujq12u/ANXytQ-AsY_oK7xJiO5gWR4?rlkey=vucxhwkl82mh2xened5rn67n2&st=dpiv1jcy&dl=0
+Due to the space limitations of GitHub, the input embeddings are stored in an anonymous Dropbox account. The link is provided here: https://www.dropbox.com/scl/fo/rpf389602ek8ugaujq12u/ANXytQ-AsY_oK7xJiO5gWR4?rlkey=vucxhwkl82mh2xened5rn67n2&st=dpiv1jcy&dl=0
