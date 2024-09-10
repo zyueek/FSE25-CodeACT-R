@@ -1,5 +1,5 @@
-This directory include the simulation process with CodeACT-R model
+This directory includes the simulation process with the CodeACT-R model.
 
-The CodeACT-R evaluation include the 300 simulation runs for each stimulus which aims to evaluate the scanpath quality.
+The CodeACT-R evaluation consists of 300 simulation runs for each stimulus, aiming to evaluate the quality of the scanpath.
 
-The CodeACT-R simu4dl include only 20 simulation for each stimulu which is used to feed the deep learning model in code comprehension.
+The `CodeACT-R_simu4dl` directory contains only 20 simulation runs per stimulus, specifically designed to feed the deep learning model in code comprehension.
